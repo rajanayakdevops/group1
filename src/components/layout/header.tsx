@@ -3,9 +3,10 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
-import { Logo } from '@/components/logo';
+import  Logo  from '@/image/logo.webp';
 import { Button } from '@/components/ui/button';
 import { motion, AnimatePresence } from '@/components/motion';
+import Image from 'next/image';
 
 const navItems = [
   { name: 'Python', href: '/docs/python' },
@@ -18,7 +19,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border/50">
       <nav className="container mx-auto flex items-center justify-between p-4 lg:px-8">
-        <Logo />
+        <Image src={Logo} alt="Varcode Logo" width={150} height={50} />
         <div className="hidden md:flex items-center gap-6">
           {navItems.map((item) => (
             <Link key={item.name} href={item.href} className="text-sm font-medium text-foreground/80 transition-colors hover:text-foreground">

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: 'varCODE Docs – Learn Python & Java with Clean Documentation',
     description:
       'varCODE provides beginner-friendly and expert-level documentation for Python and Java, designed for developers to learn faster.',
-    url: 'https://varcode.dev',
+    url: 'https://varcode.in',
     siteName: 'varCODE Docs',
     images: [
       {

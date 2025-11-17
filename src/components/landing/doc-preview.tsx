@@ -60,9 +60,9 @@ export default function DocPreview({ id, title, description, icon, image, revers
                     className="w-full h-auto object-cover aspect-[3/2]"
                   />
               </CardHeader>
-              <CardContent className="p-4 bg-muted/30 text-sm text-muted-foreground">
+              {/* <CardContent className="p-4 bg-muted/30 text-sm text-muted-foreground">
                 <p>// Sample code from {title} documentation...</p>
-              </CardContent>
+              </CardContent> */}
             </Card>
           </motion.div>
         </div>
