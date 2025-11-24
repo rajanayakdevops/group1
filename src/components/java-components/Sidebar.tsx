@@ -9,17 +9,49 @@ export default function Sidebar() {
   const pathname = usePathname();
   const { setActiveLink, setOpenParent } = useJavaContext();
 
-  useEffect(() => {
-    if (!pathname) return;
+useEffect(() => {
+  if (!pathname) return;
 
-    setActiveLink(pathname);
+  setActiveLink(pathname);
 
-    if (pathname.startsWith('/docs/java/introduction')) setOpenParent('introduction');
-    else if (pathname.startsWith('/docs/java/topics')) setOpenParent('fundamentals');
-    else if (pathname.startsWith('/docs/java/flow')) setOpenParent('flow');
-    else if (pathname.startsWith('/docs/java/arrays')) setOpenParent('arrays');
-    else if (pathname.startsWith('/docs/java/oop')) setOpenParent('oop');
-  }, [pathname, setActiveLink, setOpenParent]);
+  if (pathname.startsWith('/docs/java/topics/Java-Introduction'))
+    setOpenParent('introduction');
+
+  else if (pathname.startsWith('/docs/java/topics/Java-Fundamentals'))
+    setOpenParent('fundamentals');
+
+  else if (pathname.startsWith('/docs/java/topics/flow'))
+    setOpenParent('flow');
+
+  else if (pathname.startsWith('/docs/java/topics/arrays'))
+    setOpenParent('arrays');
+
+  else if (pathname.startsWith('/docs/java/topics/oop1'))
+    setOpenParent('oop');
+
+  else if (pathname.startsWith('/docs/java/topics/oop2'))
+    setOpenParent('oop2');
+
+  else if (pathname.startsWith('/docs/java/topics/oop3'))
+    setOpenParent('oop3');
+
+  else if (pathname.startsWith('/docs/java/topics/Exception'))
+    setOpenParent('Exception');
+
+  else if (pathname.startsWith('/docs/java/topics/List'))
+    setOpenParent('List');
+
+  else if (pathname.startsWith('/docs/java/topics/Queue'))
+    setOpenParent('Queue');
+
+  else if (pathname.startsWith('/docs/java/topics/Map'))
+    setOpenParent('Map');
+
+  else if (pathname.startsWith('/docs/java/topics/Set'))
+    setOpenParent('Set');
+  
+}, [pathname, setActiveLink, setOpenParent]);
+
 
   return (
     <aside className="w-72 border-r border-gray-300 p-6">
