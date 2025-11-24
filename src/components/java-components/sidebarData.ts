@@ -3,7 +3,7 @@ export const sidebarData = [
     parent: 'introduction',
     label: 'Java Introduction',
     children: [
-      { label: 'Get Started With Java', link: '/docs/java/introduction/get-started' },
+      { label: 'Get Started With Java', link: '/docs/java/topics/introduction/get-started' },
       { label: 'Your First Java Program', link: '/docs/java/introduction/first-program' },
       { label: 'Java Comments', link: '/docs/java/introduction/comments' },
     ],
