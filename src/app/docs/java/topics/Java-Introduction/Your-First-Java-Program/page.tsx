@@ -1,7 +1,7 @@
 export default function VariablePage() {
 
   return (
-    <div className="prose prose-neutral max-w-full p-4 md:p-8 lg:p-12 mx-auto">
+    <div className="editor-contents text-black">
       <h1 className="text-3xl md:text-4xl font-bold mb-6">Your First Java Program</h1>
 
       <p>
