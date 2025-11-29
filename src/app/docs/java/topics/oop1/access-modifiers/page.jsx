@@ -4,7 +4,7 @@ export default function VariablePage() {
       <h1 className="text-3xl font-bold mb-4">Java Variables</h1>
 
       <p>
-       Welcome to access modifiers
+       Welcome to radhe  radhe
       </p>
     </div>
   );
