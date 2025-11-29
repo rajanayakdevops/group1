@@ -1,12 +1,12 @@
 import React from "react";
 
-export default function VariablePage() {
+export default function JavaAnnotationTypes() {
   return (
-    <div className="px-6 py-10 max-w-5xl mx-auto text-black">
+    <div className="editor-contents text-black">
       <h1 className="text-4xl font-bold mb-6">Java Annotation Types</h1>
 
       <p className="mb-4">
-        Java annotations are metadata (data about data) for our program source code. There are several
+        Java  are <a href="/docs/java/topics/Exception/annotations" className="text-blue-600 ">annotation</a> metadata (data about data) for our program source code. There are several
         predefined annotations provided by the Java SE. Moreover, we can also create custom annotations
         as per our needs.
       </p>

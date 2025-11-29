@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function VariablePage() {
+export default function JavaLogging() {
   return (
-    <div className="prose prose-neutral max-w-full p-4 md:p-8 lg:p-12 mx-auto">
+    <div className="editor-contents text-black">
 
       {/* MAIN HEADING */}
       <h1 className="text-3xl md:text-4xl font-bold mb-6 text-black">
@@ -16,7 +16,7 @@ export default function VariablePage() {
 
       <p className="text-black">
         In Java, logging requires frameworks and APIs. Java has a built-in
-        logging framework in the <code>java.util.logging</code> package.
+        logging framework in the <code>java.util.logging</code> <a href="/docs/java/topics/oop3/package" className="text-blue-600 ">package</a>.
       </p>
 
       <p className="text-black">
@@ -210,8 +210,7 @@ LogManager manager = new LogManager();
         <li>Supports debugging and diagnosis</li>
       </ul>
 
-      <h3 className="text-xl font-semibold mt-6 text-black">Also Read:</h3>
-      <p className="text-black">Java Methods</p>
+
     </div>
   );
 }

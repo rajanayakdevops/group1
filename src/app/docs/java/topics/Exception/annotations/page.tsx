@@ -2,7 +2,7 @@ import React from "react";
 
 export default function JavaAnnotationsPage() {
   return (
-    <div className="prose prose-neutral max-w-full p-4 md:p-8 lg:p-12 mx-auto">
+    <div className="editor-contents text-black">
       <h1 className="text-3xl md:text-4xl font-bold mb-6 text-black">Java Annotations</h1>
 
       <p className="text-gray-700">Java annotations are metadata for source code. They provide additional information to the compiler but do not affect program execution.</p>
@@ -11,7 +11,7 @@ export default function JavaAnnotationsPage() {
       <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">@AnnotationName</pre>
 
       <h2 className="text-2xl md:text-3xl font-semibold mt-8 mb-3 text-black">@Override Annotation</h2>
-      <p className="text-gray-700">Indicates a method overrides a method from its superclass.</p>
+      <p className="text-gray-700">Indicates a <a href="/docs/java/topics/oop1/Methods" className="text-blue-600 ">method</a> overrides a method from its superclass.</p>
 
       <h3 className="text-xl font-semibold mt-4 text-black">Example 1: @Override Annotation</h3>
       <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">{`class Animal {

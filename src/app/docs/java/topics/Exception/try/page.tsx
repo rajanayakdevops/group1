@@ -1,13 +1,13 @@
 import React from "react";
 
-export default function VariablePage() {
+export default function Javatryandcatch() {
   return (
-    <div className="prose prose-neutral max-w-full p-4 md:p-8 lg:p-12 mx-auto">
+    <div className="editor-contents text-black">
       <h1 className="text-3xl md:text-4xl font-bold mb-6">Java try...catch Blocks</h1>
 
       <p>
-        The <strong>try...catch</strong> block in Java is used to handle exceptions
-        and prevent the abnormal termination of a program.
+        The <strong>try...catch</strong> block in Java is used to handle <a href="/docs/java/topics/Exception/exceptions" className="text-blue-600 ">exceptions </a>
+         and prevent the abnormal termination of a program.
       </p>
 
       <h2 className="text-2xl font-semibold mt-8 mb-3">Syntax of try...catch</h2>
@@ -54,7 +54,7 @@ Exception in thread "main" java.lang.ArithmeticException: / by zero`}</pre>
 
       <h2 className="text-2xl font-semibold mt-8 mb-3">try...catch...finally Block</h2>
       <p>
-        You can also use a <strong>finally</strong> block after a try...catch block
+        You can also use a <a href="/docs/java/topics/Exception/exceptions-handling" className="text-blue-600 "><strong>finally</strong></a> block after a try...catch block
         to ensure cleanup code is executed.
       </p>
 

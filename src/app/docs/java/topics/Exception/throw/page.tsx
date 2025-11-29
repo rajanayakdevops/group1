@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function VariablePage() {
+export default function Javathrowandthrows() {
   return (
-    <div className="prose prose-neutral max-w-full p-4 md:p-8 lg:p-12 mx-auto">
+    <div className="editor-contents text-black">
       <h1 className="text-3xl md:text-4xl font-bold mb-6">Java throw and throws</h1>
 
       <p>
@@ -111,7 +111,7 @@ class Main {
       <pre className="bg-black text-white p-4 rounded-md overflow-x-auto">{`File not found`}</pre>
 
       <p>
-        In the above example, the checked exception <code>IOException</code> must be declared with <code>throws</code> and handled with a <code>try...catch</code> block.
+        In the above example, the checked exception <a href="/docs/java/topics/Exception/exceptions" className="text-blue-600 "><code>IOException</code></a> must be declared with <code>throws</code> and handled with a <a href="/docs/java/topics/Exception/try" className="text-blue-600 "><code>try...catch</code></a> block.
       </p>
     </div>
   );
