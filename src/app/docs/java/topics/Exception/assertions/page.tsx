@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function VariablePage() {
+export default function JavaAssertions() {
   return (
-    <div className="px-6 py-10 max-w-5xl mx-auto text-black">
+    <div className="editor-contents text-black">
       <h1 className="text-4xl font-bold mb-6">Java Assertions</h1>
 
       <p className="mb-4">

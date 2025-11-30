@@ -1,21 +1,21 @@
 import React from "react";
 
-export default function VariablePage() {
+export default function JavaExceptionHandling() {
   return (
-    <div className="prose prose-neutral max-w-none">
+    <div className="editor-contents text-black">
       <h1 className="text-3xl md:text-4xl font-bold mb-6">Java Exception Handling</h1>
 
       <p>
         In the previous tutorial, we learned about Java exceptions and how they can
-        terminate a program unexpectedly. Exception handling allows the program to
+        terminate a program unexpectedly. <a href="/docs/java/topics/Exception/exceptions" className="text-blue-600 ">exception</a> handling allows the program to
         continue execution smoothly even when something goes wrong.
       </p>
 
       <h2 className="text-2xl font-semibold mt-8 mb-3">Approaches to Handle Exceptions</h2>
       <ul className="list-disc pl-6">
-        <li>try...catch block</li>
+        <li><a href="/docs/java/topics/Exception/try" className="text-blue-600 ">try...catch block</a></li>
         <li>finally block</li>
-        <li>throw and throws keyword</li>
+        <li><a href="/docs/java/topics/Exception/throw" className="text-blue-600 ">throw </a> and <a href="/docs/java/topics/Exception/throw" className="text-blue-600 ">throws </a> <a href="/docs/java/topics/Exception/exceptions-handling" className="text-blue-600 "> keyword</a></li>
       </ul>
 
       {/* TRY CATCH BLOCK */}
