@@ -1,3 +1,9 @@
+import Image from "next/image";
+import javaIfWorking from "./java-if-working.png"; 
+import javaIfElseWorking from "./java-if-else-working.png"; 
+import javaIfElseIfWorking from "./java-if-else-if-statement.png"; 
+
+
 export default function JavaIfElseStatementContent() {
   return (
     <div className="editor-contents text-black">
@@ -37,9 +43,16 @@ export default function JavaIfElseStatementContent() {
         <h3>Working of if Statement</h3>
 
         <figure>
-          <img src="/sites/tutorial2program/files/java-if-working.png" alt="if the number is greater than 0, code inside if block is executed, otherwise code inside if block is skipped" title="Working of Java if statement" width="520" height="256" />
-          <figcaption>Working of Java if statement</figcaption>
-        </figure>
+  <Image
+    src={javaIfWorking}
+    alt="if the number is greater than 0, code inside if block is executed, otherwise code inside if block is skipped"
+    title="Working of Java if statement"
+    width={520}
+    height={256}
+  />
+  <figcaption>Working of Java if statement</figcaption>
+</figure>
+
 
         <hr className="my-6 border-gray-300" />
 
@@ -131,7 +144,7 @@ else {
         <h3>How the if...else statement works?</h3>
 
         <figure>
-          <img src="/sites/tutorial2program/files/java-if-else-working.png" alt="If the condition is true, the code inside the if block is executed, otherwise, code inside the else block is executed" title="Working of Java if-else statements" width="580" height="267" />
+          <Image src={javaIfElseWorking} alt="If the condition is true, the code inside the if block is executed, otherwise, code inside the else block is executed" title="Working of Java if-else statements" width="580" height="267" />
           <figcaption>Working of Java if-else statements</figcaption>
         </figure>
 
@@ -222,7 +235,7 @@ else {
         <h3>How the if...else...if ladder works?</h3>
 
         <figure>
-          <img src="/sites/tutorial2program/files/java-if-else-if-statement.png" alt="If the first test condition if true, code inside first if block is executed, if the second condition is true, block inside second if is executed, and if all conditions are false, the else block is executed" title="Working of if...else...if ladder" width="740" height="312" />
+          <Image src={javaIfElseIfWorking} alt="If the first test condition if true, code inside first if block is executed, if the second condition is true, block inside second if is executed, and if all conditions are false, the else block is executed" title="Working of if...else...if ladder" width="740" height="312" />
           <figcaption>Working of if...else...if ladder</figcaption>
         </figure>
 
